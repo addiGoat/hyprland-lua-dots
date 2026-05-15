@@ -4,7 +4,7 @@ require("modules.startup")
 require("modules.binds")
 require("modules.input")
 require("modules.special_workspaces")
+require("modules.rules")
 
 require("plugins.bars")
 
-require("machines.laptop")
