@@ -28,11 +28,11 @@ bind("SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 
 -- Focus workspace with Mod+Number key
 for i = 1, 5 do
-	-- Alt+[1-5] for tiled workspace
+	-- Alt+[1-5] for tiled workspace/main monitor
 	bind(i, hl.dsp.focus({ workspace = i }))
 	bind("SHIFT + " .. i, hl.dsp.window.move({ workspace = i }))
 
-	-- Super+[1-5] for floating workspace
+	-- Super+[1-5] for floating workspace/second monitor
 	bindSuper(i, hl.dsp.focus({ workspace = i + 5}))
 	bindSuper("SHIFT + " .. i, hl.dsp.window.move({ workspace = i + 5 }))
 end
