@@ -58,5 +58,5 @@ hl.window_rule({
 hl.window_rule({
 	name = "change-focused-bar-color",
 	match = { focus = true },
-	["hyprbars:bar_color"] = "rgba(5c629cdd)",
+	["hyprbars:bar_color"] = "rgba(9681dbdd)",
 })
