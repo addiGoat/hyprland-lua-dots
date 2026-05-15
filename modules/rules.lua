@@ -29,3 +29,13 @@ else
 		size = {1920, 1080}
 	})
 end
+	------------------------
+	---- GENERAL RULES  ----
+	------------------------
+
+hl.window_rule({
+	name = "style-floating-windows",
+	match = { float = true },
+	rounding = 20,
+	rounding_power = 2
+})
