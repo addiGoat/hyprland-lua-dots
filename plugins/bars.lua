@@ -9,7 +9,7 @@ hl.config({
 
         ["col.text"] = "rgb(cfb4d1)",
 
-	bar_height = 50,
+	bar_height = 40,
 	bar_padding = 14,
 	bar_part_of_window = true,
 	bar_precedence_over_border = true,
@@ -18,7 +18,7 @@ hl.config({
         bar_text_font = "JetBrainsMonoNerdFont",
 
 	bar_buttons_alignment = "left",
-	bar_button_padding = 16
+	bar_button_padding = 10
     }
   }
 })
@@ -27,7 +27,7 @@ hl.config({
 hl.plugin.hyprbars.add_button({
 	bg_color = "rgb(b54752)",
 	fg_color = "rgb(b54752)",
-	size = 28,
+	size = 16,
 	icon = "",
 	action = "hyprctl dispatch 'hl.dsp.window.close()'",
 })
@@ -35,7 +35,7 @@ hl.plugin.hyprbars.add_button({
 hl.plugin.hyprbars.add_button({
 	bg_color = "rgb(c4a368)",
 	fg_color = "rgb(c4a368)",
-	size = 28,
+	size = 16,
 	icon = "",
 	action = "",
 })
@@ -43,7 +43,7 @@ hl.plugin.hyprbars.add_button({
 hl.plugin.hyprbars.add_button({
 	bg_color = "rgb(6bc76b)",
 	fg_color = "rgb(6bc76b)",
-	size = 28,
+	size = 16,
 	icon = "",
 	action = "hyprctl dispatch 'hl.dsp.window.fullscreen({ mode = \"maximized\", action = \"toggle\" })'",
 })
